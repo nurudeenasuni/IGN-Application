@@ -1,0 +1,60 @@
+Nurudeen Asuni
+
+1) How many pennies could you put on the Golden Gate Bridge without any of them overlapping? For this question, please write out each step in your thought process.
+2) Our images have a ratio of 16:9, and our design layouts have 12 pixel wide increments (there are no limits on height). Give examples of three image sizes that would have the correct ratio and would fit the design layout.
+3) What is the minimum number of moves required for a knight to cover the entire chess board? Write a program to prove it. Provide a graph with the move number on the x axis and the number of squares covered on the y axis.
+4) Creatively prove to us that you meet our value - Fire - that this would be more than just a job to you, and that you are passionate about us.
+
+
+
+
+
+1.
+Break up the problem into more solvable, smaller problems.
+Take the majority of the bridge and make it into a big square or big squares
+Make a smaller square such that a certain number of them can fit evenly, filling the bigger ones 
+Let the small square hold a max of four pennies, one in each corner
+After taking out the majority of the bridge using the steps above, now fill the rest of the bridge with pennies. Much easier
+
+
+2.
+
+Since 16:9 is the ratio used for pictures, we just need a ratio that follows this. Therefore, lets make
+
+16X = Y   where Y = the width with a ceiling value of 12. 
+
+Because the height, X,  can be of any value, we just need to pick three numbers for Y that's less than or
+equal to 12.
+
+Let's use 12, 10, and 6.
+
+
+16X = 12      →          X =   ¾       →         16(3/4) : 9(3/4)
+
+16X =  10      →          X =     →         16() :  9()
+
+16X = 6         →          X =       →         16() : 9()
+
+
+Thus, the ratios that can be used for pictures are 12 to  ,  10 to  , and 6 to  
+
+
+
+
+3.
+Trying to find the minimum number of moves it takes to cover the board would be easier with a shortest path algorithm. I'm using Dijikstra's Shortest Path algorithm. 
+
+
+
+With a chessboard, lets assume the cell that equals 0 is the starting point. Its possible to reach any other space on the chessboard with a minimum of five turns. 
+
+From the initial space, you can reach 7 more spaces. Then you can reach 15 more. Then 22 and 16 respectively.
+
+
+4.
+
+People always have different opinions about things. One thing I heard my cousin say was that I would rather work at a place I liked than a place I hated, regardless of the pay. That's exactly how I feel about IGN. Well, money is always good, but IGN is better! 
+
+IGN has always been my source for gaming news...since I've been aware of it. My best friend had been an IGN fan before while I was a fan of Gamespot. When we met, we brought up our favorite websites and ended up flip-floping. I was a big fan of IGN while he became a fan of Gamespot (until some time passed and he went back to IGN). 
+
+I've always checked IGN for reviews on games I wanted to buy. I check out coverage on the big E3 event on IGN (which I will tomorrow). I'm a big fan of IGN and I have the burning passion to be a part of it!
